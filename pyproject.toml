@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "pcg"
+version = "0.1.0"
+description = ""
+authors = ["Rohith Bollineni <rohith.bolline@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+huggingface-hub = "^0.16.4"
+transformers = "^4.31.0"
+torch = "^2.0.1"
+datasets = "^2.14.1"
+accelerate = "^0.21.0"
+evaluate = "^0.4.0"
+seaborn = "^0.12.2"
+ipykernel = "^6.25.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
